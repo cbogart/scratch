@@ -6,4 +6,10 @@ else:
     happens(4)
 ```
 
+You should buy:
+  [x] eggs
+  [_] milk
+  [_] pork rinds
+  
+  
 THis is a :smile: smiley face :angry:
