@@ -7,9 +7,11 @@ else:
 ```
 
 You should buy:
-  [x] eggs
-  [_] milk
-  [_] pork rinds
-  
+- [x] eggs
+- [ ] milk
+- [ ] pork rinds
+- :smiley:
+
+
   
 THis is a :smile: smiley face :angry:
