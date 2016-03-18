@@ -1,3 +1,27 @@
+# Project data/DB mapping
+ 
+## High level structure 
+ 
+Information is organized in a hierarchy of DiscourseParts of different types 
+ 
+* Discourse: a bunch of projects in the same software ecosystem 
+  * DiscoursePart: GITHUB_OWNER A person or organization that owns 
+    * DiscoursePart: GITHUB_REPO A repository representing a project or subproject 
+      * DiscoursePart: GITHUB_ISSUE 
+        * Contribution: ISSUE_HEAD The description of an issue, and each item in a comment thread under it 
+      * DiscoursePart: GITHUB_PULL_REQUEST 
+        * Contribution: PR_HEAD The description of a pull request, and each item in a comment thread under it 
+        * Contribution: COMMIT The description text of a commit. 
+      * DiscoursePart: GITHUB_PUSH 
+        * Contribution: COMMIT The description text of a commit. 
+      * DiscoursePart: WEBSITE An information website possibly with multiple pages 
+        * Contribution: WEBPAGE A webpage associated with a project 
+          * Content: WEBPAGE The text of a webpage, in plaintext, with html and javascript junk stripped out 
+            * Annotation: HYPERLINK Ranges of text that refer to other pages 
+          * DataSource: URL of the page 
+ 
+## Github Issues and Pull requests 
+
 
 ```python
 if x=4:
