@@ -10,7 +10,7 @@ You should buy:
 - [x] eggs
 - [ ] milk
 - [ ] pork rinds
-- :smiley:
+- :smiley: :frown:
 
 
   
